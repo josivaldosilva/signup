@@ -112,7 +112,7 @@ body {
 .gender-group {
     display: flex;
     margin-top: 8px;
-    gap: 20px;
+    gap: 10px;
 }
 
 .gender input[type = radio] {
@@ -129,7 +129,11 @@ body {
     .form-img{
         display: none;
     }
-
+    
+    .gender-group {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 }
 
 
